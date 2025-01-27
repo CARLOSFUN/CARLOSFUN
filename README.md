@@ -1,9 +1,10 @@
 # Welcome to My GitHub Profile!
 
 <!-- Hi there banner with animated background -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/assets/main/banner-animation.gif" alt="Hi there! I'm Carlos" style="width: 100%; max-height: 300px; border-radius: 10px;">
-</div>
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Carlos+Funezsanchez!;" />
+</h1>
+
 
 ## About Me
 Hi! I'm Carlos Funezsanchez, a passionate **Linux Administrator** in training and **cybersecurity enthusiast**. With over 8 years of experience in managing and maintaining critical IT infrastructure in the **US Navy**, I specialize in:
