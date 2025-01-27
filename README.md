@@ -2,7 +2,7 @@
 
 <!-- Hi there banner with animated background -->
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Carlos+Funezsanchez!;Linux+Administrator+%7C+SysAdmin+%7C+Cloud+Enthusiast" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Carlos+Funezsanchez!;Linux+%7C+SysAdmin+%7C+" />
 </h1>
 
 ## About Me
