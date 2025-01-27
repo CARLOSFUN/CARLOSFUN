@@ -19,7 +19,7 @@ I am proficient in configuring virtual servers, ensuring data integrity, and mai
 - 🏅 Red Hat Certified System Administrator (RHCSA)
 
 ## Clearance
-- 🔐 Secret Clearance held during service
+- 🔐 Secret Clearance (Active)
 
 ## Current Projects
 - 🎥 [Linux+ YouTube Series](#)  
