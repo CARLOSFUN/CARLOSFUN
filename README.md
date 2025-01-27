@@ -21,9 +21,6 @@ I excel in configuring virtual servers, ensuring data integrity, and maintaining
 ## Clearance
 - 🔐 Secret Clearance (Active)
 
-## Featured Projects
-### 🎥 [Linux+ YouTube Series](#)
-Sharing step-by-step tutorials and practical labs for aspiring Linux administrators.
 
 ### ☁️ [Cloud Automation Labs](#)
 Developing hands-on labs for automating cloud deployments using tools like **Terraform** and **Ansible**.
