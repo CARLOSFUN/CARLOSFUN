@@ -63,13 +63,49 @@ Blue team operations with **Microsoft Defender, Sentinel, and KQL**.
 
 ---
 
+Perfect ✅ — adding **logos/icons** for your Tech Stack & Tools + OS, and a **Certifications** section will really polish your portfolio. Recruiters love scannable visuals (badges, icons, shields). Here’s a redesigned version of that section for your GitHub `README.md`:
+
+---
+
 ## 🛠️ Tech Stack & Tools
 
-**Languages & Scripting:** Python, PowerShell, Bash
-**Platforms:** Linux (Ubuntu, Rocky, Mint), Windows Server, AWS
-**Security Tools:** Microsoft Defender, Wireshark, Kali Linux, John the Ripper
-**Databases:** MySQL, PostgreSQL, SQLite
-**Other:** Git, Docker, Virtualization (VMware, VirtualBox)
+**Operating Systems**
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux\&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows\&logoColor=white)
+![Windows Server 2016](https://img.shields.io/badge/Windows%20Server%202016-0078D6?logo=windows\&logoColor=white)
+![RHEL](https://img.shields.io/badge/RHEL-EE0000?logo=redhat\&logoColor=white)
+
+**Scripting & Programming**
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?logo=gnubash\&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell\&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql\&logoColor=white)
+
+**Security & Networking**
+![Azure MDE](https://img.shields.io/badge/Azure%20MDE-0078D4?logo=microsoftazure\&logoColor=white)
+![KQL](https://img.shields.io/badge/KQL-0078D4?logo=microsoft\&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark\&logoColor=white)
+
+**Virtualization & Cloud**
+![VMware](https://img.shields.io/badge/VMware-607078?logo=vmware\&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox\&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws\&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure\&logoColor=white)
+
+**Version Control & Automation**
+![Git](https://img.shields.io/badge/Git-F05032?logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github\&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-Scripting-informational)
+
+---
+
+## 🎓 Certifications
+
+![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-FF0000?logo=comptia\&logoColor=white)
+![CompTIA Linux+](https://img.shields.io/badge/CompTIA-Linux%2B-FF6600?logo=comptia\&logoColor=white)
+![RHCSA](https://img.shields.io/badge/Red%20Hat-RHCSA-EE0000?logo=redhat\&logoColor=white)
+
 
 ---
 
