@@ -1,3 +1,8 @@
+<!-- Banner -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/banner-example.png" alt="Carlos Funezsanchez | Cybersecurity & IT Portfolio" width="100%" />
+</p>
+
 # 👋 Hi, I’m [Carlos Funezsanchez](https://www.linkedin.com/in/carlosfunezsanchez/)
 
 💻 **IT & Cybersecurity Portfolio** 🔐
