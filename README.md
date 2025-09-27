@@ -58,12 +58,8 @@ Blue team operations with **Microsoft Defender, Sentinel, and KQL**.
 ## ☁️ Cloud & DevSecOps Projects
 
 * **AWS Ubuntu Server Setup (Step-by-Step Guide)**
-* **SkillBridge Job Finder (LinkedIn-style Web App)** → [Repo](https://github.com/CARLOSFUN/skillbridge-job-finder)
+* **SkillBridge Job Finder (LinkedIn-style Web App)** → (coming soon)
   *Flask + Leaflet.js app for military members to search, filter, and visualize DoD SkillBridge roles.*
-
----
-
-Perfect ✅ — adding **logos/icons** for your Tech Stack & Tools + OS, and a **Certifications** section will really polish your portfolio. Recruiters love scannable visuals (badges, icons, shields). Here’s a redesigned version of that section for your GitHub `README.md`:
 
 ---
 
