@@ -60,6 +60,12 @@ Blue team operations with **Microsoft Defender, Sentinel, and KQL**.
 * **AWS Ubuntu Server Setup (Step-by-Step Guide)**
 * **SkillBridge Job Finder (LinkedIn-style Web App)** → (coming soon)
   *Flask + Leaflet.js app for military members to search, filter, and visualize DoD SkillBridge roles.*
+* **🌦️ Weather Notify (Telegram Automation Project)**
+*A Python-based automation tool that fetches real-time weather data from WeatherAPI.com
+ and sends personalized advice (like “Wear a jacket — it’s cold!”) directly to Telegram every morning.*
+  * **Tech Used: Python, WeatherAPI, Telegram Bot API, macOS Automation**
+  * **Features: Environment variables for secure key storage, API integration, message formatting, and optional daily scheduling via cron.**
+  * **Repo: [🔗](https://github.com/CARLOSFUN/weather-notify)**
 
 ---
 
