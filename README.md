@@ -1,121 +1,68 @@
-# 👋 Hi, I’m [Carlos Funezsanchez](https://www.linkedin.com/in/carlosfunezsanchez/)
+# Carlos Funezsanchez
 
-💻 **IT & Cybersecurity Portfolio** 🔐
+Security-focused practitioner with a SOC and incident response mindset. I build and document hands-on threat hunting and endpoint investigation work using real telemetry, with a focus on repeatable detection outcomes.
 
-[![GitHub followers](https://img.shields.io/github/followers/CARLOSFUN?label=Follow\&style=social)](https://github.com/CARLOSFUN)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/carlosfunezsanchez/)
-[![Resume](https://img.shields.io/badge/Resume-Download-success)](#)
+## About Me
 
----
+I approach security work like an analyst, starting with telemetry and working toward evidence-based conclusions. I regularly hunt for suspicious behavior, scope impact, and document findings so they can be repeated or operationalized. I focus on investigation workflows that move from triage to validation and remediation without losing context. I use Linux and systems knowledge to support investigations, validate host behavior, and understand operational constraints. I keep my work grounded in real data and clear documentation so others can follow and reproduce the process.
 
-## 🚀 About Me
+## What I Do
 
-I’m passionate about **cybersecurity, system administration, and Linux**. My work focuses on solving real-world problems in areas like:
+- Build detection-focused investigations that translate endpoint telemetry into actionable triage and response steps.
+- Analyze suspicious activity with clear scoping, evidence collection, and remediation guidance.
+- Design defensive workflows that reduce alert fatigue and improve visibility across endpoints.
 
-* 🔎 Threat Hunting & SOC Investigations
-* ⚠️ Vulnerability Management & Remediation
-* 🐧 Linux Administration & Automation
-* ☁️ Cloud Security & Virtualization
+## Featured Projects
 
-I enjoy building **hands-on projects** that sharpen my skills and simulate real-world enterprise challenges.
+### Threat Hunting & SOC Investigations
 
----
+**[Threat Hunting Scenario: Tor Browser Usage](https://github.com/CARLOSFUN/threat-hunting-scenario-tor)**
+Identified unapproved anonymization tools across enterprise endpoints to surface policy violations.
+Analyzed Microsoft Defender and Sentinel telemetry to validate usage patterns and scope affected hosts.
+Skills: KQL threat hunting, endpoint telemetry analysis, investigation workflow design
 
-## ⚠️ Vulnerability Management Projects
+**[RDP Compromise CTF (End-to-End SOC Investigation)](https://github.com/CARLOSFUN/RDP-Compromise-CTF)**
+Investigated a simulated RDP compromise to reconstruct attacker behavior from initial access to remediation.
+Built KQL hunting queries and mapped activity to MITRE ATT&CK to document evidence and response steps.
+Skills: KQL threat hunting, incident investigation, MITRE ATT&CK mapping, documentation
 
-Practical approaches to identifying, analyzing, and mitigating security risks.
+### Vulnerability Management
 
-* **[Vulnerability Management Program Implementation](https://github.com/CARLOSFUN/vulnerability-management-program)**
-  *End-to-end documentation of a structured program for enterprise vulnerability lifecycle management.*
+**[Vulnerability Management Program Implementation](https://github.com/CARLOSFUN/vulnerability-management-program)**
+Defined a structured lifecycle for identifying, prioritizing, and remediating vulnerabilities at scale.
+Built documentation and workflows that connect intake, risk ranking, and remediation tracking.
+Skills: program design, risk prioritization, remediation workflow documentation
 
-* **Programmatic Vulnerability Remediations (PowerShell + BASH)** *(Coming Soon)*
-  *Automating patching & remediation tasks across Linux & Windows environments.*
+**Programmatic Vulnerability Remediations (PowerShell + BASH) (Coming Soon)**
+Automated patching and remediation tasks across Linux and Windows environments to reduce manual effort.
+Built scripts and workflows focused on consistent coverage and repeatable remediation outcomes.
+Skills: PowerShell, Bash, remediation automation
 
----
+### Linux & Systems
 
-## 🚨 Threat Hunting & Security Operations
+**Linux+ Practice Labs (In Progress)**
+Developed hands-on competence in user management, boot processes, and scripting for operational readiness.
+Built lab exercises across Rocky Linux and Ubuntu to validate core administration tasks.
+Skills: Rocky Linux, Ubuntu, system administration, scripting
 
-Blue team operations with **Microsoft Defender, Sentinel, and KQL**.
+**RHCSA Labs (Coming Soon)**
+Practiced real-world system configuration, networking, and security tasks aligned to enterprise needs.
+Built Red Hat-focused lab scenarios for service hardening and configuration management.
+Skills: Red Hat tooling, service hardening, system configuration
 
-* **[Threat Hunting Scenario: Tor Browser Usage](https://github.com/CARLOSFUN/threat-hunting-scenario-tor)**
-  *Detection & investigation of unapproved Tor usage across enterprise endpoints.*
+## Skills & Tooling
 
-* **[RDP Compromise CTF (End-to-End SOC Investigation)](https://github.com/CARLOSFUN/RDP-Compromise-CTF)**
-  *Simulated RDP attack with KQL hunting queries, MITRE mapping, and remediation steps.*
+- **Detection & Investigation:** Microsoft Defender for Endpoint, Microsoft Sentinel, KQL, Wireshark.
+- **Scripting & Automation:** Python, Bash, PowerShell, Ansible, SQL.
+- **Platforms & Infrastructure:** Linux, Windows, Windows Server, RHEL, VMware, VirtualBox.
+- **Cloud:** AWS, Azure.
 
----
+## Certifications
 
-## 🐧 Linux & System Administration
+- CompTIA Security+
+- CompTIA Linux+
+- Red Hat Certified System Administrator (RHCSA)
 
-* **Linux+ Practice Labs** *(In Progress)*
-  *Rocky Linux & Ubuntu labs for CompTIA Linux+ prep (user mgmt, boot process, scripting).*
+## Closing
 
-* **RHCSA Labs** *(Coming Soon)*
-  *Red Hat certification-aligned practice labs for system configuration, networking, and security.*
-
----
-
-## ☁️ Cloud & DevSecOps Projects
-
-* **AWS Ubuntu Server Setup (Step-by-Step Guide)**
-* **SkillBridge Job Finder (LinkedIn-style Web App)** → (coming soon)
-  *Flask + Leaflet.js app for military members to search, filter, and visualize DoD SkillBridge roles.*
-* **🌦️ Weather Notify (Telegram Automation Project)**
-*A Python-based automation tool that fetches real-time weather data from WeatherAPI.com
- and sends personalized advice (like “Wear a jacket — it’s cold!”) directly to Telegram every morning.*
-  * **Tech Used: Python, WeatherAPI, Telegram Bot API, macOS Automation**
-  * **Features: Environment variables for secure key storage, API integration, message formatting, and optional daily scheduling via cron.**
-  * **Repo: [🔗](https://github.com/CARLOSFUN/weather-notify)**
-
----
-
-## 🛠️ Tech Stack & Tools
-
-**Operating Systems**
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux\&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows\&logoColor=white)
-![Windows Server 2016](https://img.shields.io/badge/Windows%20Server%202016-0078D6?logo=windows\&logoColor=white)
-![RHEL](https://img.shields.io/badge/RHEL-EE0000?logo=redhat\&logoColor=white)
-
-**Scripting & Programming**
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?logo=gnubash\&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell\&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql\&logoColor=white)
-
-**Security & Networking**
-![Azure MDE](https://img.shields.io/badge/Azure%20MDE-0078D4?logo=microsoftazure\&logoColor=white)
-![KQL](https://img.shields.io/badge/KQL-0078D4?logo=microsoft\&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark\&logoColor=white)
-
-**Virtualization & Cloud**
-![VMware](https://img.shields.io/badge/VMware-607078?logo=vmware\&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox\&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws\&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure\&logoColor=white)
-
-**Version Control & Automation**
-![Git](https://img.shields.io/badge/Git-F05032?logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github\&logoColor=white)
-![Automation](https://img.shields.io/badge/Automation-Scripting-informational)
-
----
-
-## 🎓 Certifications
-
-![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-FF0000?logo=comptia\&logoColor=white)
-![CompTIA Linux+](https://img.shields.io/badge/CompTIA-Linux%2B-FF6600?logo=comptia\&logoColor=white)
-![RHCSA](https://img.shields.io/badge/Red%20Hat-RHCSA-EE0000?logo=redhat\&logoColor=white)
-
-
----
-
-## 🤳 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/carlosfunezsanchez)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/CARLOSFUN)
-
----
-
-✨ **Goal:** Keep building hands-on cybersecurity and Linux projects, while documenting everything for others to learn from.
+I focus on continuous learning through documented, hands-on security work and repeatable investigation practices.
