@@ -12,6 +12,11 @@ Security-focused practitioner with a SOC and incident response mindset. I build 
 
 ### Threat Hunting & SOC Investigations
 
+- **[CorpHealth Traceback Threat Hunt (End-to-End Investigation)](https://github.com/CARLOSFUN/corphealth-traceback-threat-hunt)**
+  - **Problem solved:** Reconstructed a suspicious activity timeline involving potential misuse of an operational maintenance account using endpoint telemetry.
+  - **Tools/skills:** Microsoft Defender for Endpoint Advanced Hunting (KQL), process/network/file/registry correlation, timeline analysis.
+  - **Why it matters:** Simulates a real-world SOC investigation of anomalous behavior with multiple attack phases, including staging artifacts, persistence mechanisms, privilege manipulation, and command-and-control.
+
 - **[Threat Hunting Scenario: Tor Browser Usage](https://github.com/CARLOSFUN/threat-hunting-scenario-tor)**
   - **Problem solved:** Identify unapproved anonymization tools across enterprise endpoints.
   - **Tools/skills:** Microsoft Defender, Sentinel, KQL, investigation workflow design.
