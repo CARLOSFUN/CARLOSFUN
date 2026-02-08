@@ -1,0 +1,9 @@
+// Flag 22 Final Outbound Remote IP
+// Tables: DeviceNetworkEvents
+// Time range: Dec 1-31, 2025
+// Paste into MDE Advanced Hunting
+DeviceNetworkEvents
+| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-31))
+| where DeviceName =~ "<DEVICE>"
+| project Timestamp, DeviceName, AccountName, RemoteIP, RemotePort, RemoteUrl
+| order by Timestamp desc

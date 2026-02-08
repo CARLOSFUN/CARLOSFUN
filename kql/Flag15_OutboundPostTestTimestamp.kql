@@ -1,0 +1,10 @@
+// Flag 15 Outbound Post Test Timestamp
+// Tables: DeviceNetworkEvents
+// Time range: Dec 1-31, 2025
+// Paste into MDE Advanced Hunting
+DeviceNetworkEvents
+| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-31))
+| where DeviceName =~ "<DEVICE>"
+| where InitiatingProcessCommandLine has_any ("curl", "Invoke-WebRequest", "Invoke-RestMethod")
+| project Timestamp, DeviceName, AccountName, RemoteIP, RemoteUrl, InitiatingProcessCommandLine
+| order by Timestamp asc

@@ -1,0 +1,10 @@
+// Flag 08 Run Key Persistence
+// Tables: DeviceRegistryEvents
+// Time range: Dec 1-31, 2025
+// Paste into MDE Advanced Hunting
+DeviceRegistryEvents
+| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-31))
+| where DeviceName =~ "<DEVICE>"
+| where RegistryKey has "\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+| project Timestamp, DeviceName, AccountName, RegistryKey, RegistryValueName, RegistryValueData, ActionType
+| order by Timestamp asc

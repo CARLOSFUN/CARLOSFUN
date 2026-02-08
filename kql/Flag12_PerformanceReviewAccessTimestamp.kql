@@ -1,0 +1,10 @@
+// Flag 12 Performance Review Access Timestamp
+// Tables: DeviceFileEvents
+// Time range: Dec 1-31, 2025
+// Paste into MDE Advanced Hunting
+DeviceFileEvents
+| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-31))
+| where FileName has "PerformanceReview"
+| where DeviceName =~ "<DEVICE>"
+| project Timestamp, DeviceName, AccountName, ActionType, FolderPath, FileName
+| order by Timestamp asc
