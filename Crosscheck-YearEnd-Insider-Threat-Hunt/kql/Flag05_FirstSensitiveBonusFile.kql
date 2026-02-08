@@ -1,0 +1,10 @@
+// Flag 05 First Sensitive Bonus File
+// Tables: DeviceFileEvents
+// Time range: Dec 1-31, 2025
+// Paste into MDE Advanced Hunting
+DeviceFileEvents
+| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-31))
+| where DeviceName =~ "<DEVICE>"
+| where FileName has "Bonus"
+| project Timestamp, DeviceName, AccountName, ActionType, FolderPath, FileName
+| order by Timestamp asc

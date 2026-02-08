@@ -1,0 +1,10 @@
+// Flag 04 First Recon Command
+// Tables: DeviceProcessEvents
+// Time range: Dec 1-31, 2025
+// Paste into MDE Advanced Hunting
+DeviceProcessEvents
+| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-31))
+| where DeviceName =~ "<DEVICE>"
+| where ProcessCommandLine has_any ("whoami", "ipconfig", "net user", "systeminfo")
+| project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine, ProcessId
+| order by Timestamp asc

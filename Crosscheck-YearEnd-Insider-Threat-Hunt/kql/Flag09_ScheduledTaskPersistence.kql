@@ -1,0 +1,11 @@
+// Flag 09 Scheduled Task Persistence
+// Tables: DeviceProcessEvents
+// Time range: Dec 1-31, 2025
+// Paste into MDE Advanced Hunting
+DeviceProcessEvents
+| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-31))
+| where DeviceName =~ "<DEVICE>"
+| where FileName =~ "schtasks.exe" or ProcessCommandLine has "schtasks"
+| where ProcessCommandLine has_any ("/create", "/change")
+| project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine, ProcessId
+| order by Timestamp asc

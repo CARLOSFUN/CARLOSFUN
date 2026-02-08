@@ -1,0 +1,10 @@
+// Flag 07 First Outbound Connectivity Test
+// Tables: DeviceNetworkEvents
+// Time range: Dec 1-31, 2025
+// Paste into MDE Advanced Hunting
+DeviceNetworkEvents
+| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-31))
+| where DeviceName =~ "<DEVICE>"
+| where InitiatingProcessCommandLine has_any ("ping", "Test-NetConnection", "tnc")
+| project Timestamp, DeviceName, AccountName, RemoteIP, RemotePort, InitiatingProcessCommandLine
+| order by Timestamp asc

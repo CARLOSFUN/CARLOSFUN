@@ -1,0 +1,10 @@
+// Flag 17 Second Endpoint Scope
+// Tables: DeviceLogonEvents
+// Time range: Dec 1-31, 2025
+// Paste into MDE Advanced Hunting
+DeviceLogonEvents
+| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-31))
+| where AccountName =~ "<ACCOUNT>"
+| where DeviceName =~ "<SECOND_ENDPOINT>"
+| project Timestamp, DeviceName, AccountName, RemoteIP, LogonType
+| order by Timestamp asc
