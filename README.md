@@ -69,8 +69,9 @@ Identify unapproved anonymization tools across enterprise endpoints.
 **💡 Why It Matters:**  
 Helps security teams detect policy violations and potential data exfiltration paths.
 
-![Defender](https://img.shields.io/badge/Microsoft-Defender-0078D4?style=flat-square&logo=microsoft)
-![Sentinel](https://img.shields.io/badge/Azure-Sentinel-0089D6?style=flat-square&logo=microsoftazure)
+![KQL](https://img.shields.io/badge/KQL-Queries-0078D4?style=flat-square&logo=microsoftazure)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 
 </td>
 </tr>
@@ -92,8 +93,9 @@ Investigate a simulated RDP-based intrusion from initial access to remediation.
 **💡 Why It Matters:**  
 Mirrors common attack paths and trains responders on evidence-driven decisions.
 
-![RDP](https://img.shields.io/badge/Attack%20Vector-RDP-critical?style=flat-square)
-![CTF](https://img.shields.io/badge/Type-CTF-yellow?style=flat-square)
+![KQL](https://img.shields.io/badge/KQL-Queries-0078D4?style=flat-square&logo=microsoftazure)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 
 </td>
 <td width="50%">
