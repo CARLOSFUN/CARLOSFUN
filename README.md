@@ -33,7 +33,7 @@ Security-focused practitioner with a SOC and incident response mindset. I build 
 [![GitHub](https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CARLOSFUN/the-broker-threat-hunt)
 
 **🎯 Problem Solved:**  
-Full enterprise compromise reconstruction — malicious CV execution through credential theft, multi-hop lateral movement, financial data editing, and in-memory SharpChrome deployment.
+Full enterprise compromise traced — malicious CV execution through credential theft, multi-hop lateral movement, financial data editing, and in-memory SharpChrome deployment.
 
 **🔧 Tools/Skills:**
 - Microsoft Defender for Endpoint
@@ -44,7 +44,7 @@ Full enterprise compromise reconstruction — malicious CV execution through cre
 - Reflective .NET loading detection
 
 **💡 Why It Matters:**  
-The most complete adversary lifecycle investigation in this portfolio — covers Initial Access through Anti-Forensics with financial fraud risk identification via LibreOffice lock file artifact.
+Covers Initial Access through Anti-Forensics with financial fraud risk identification via LibreOffice lock file artifact.
 
 ![KQL](https://img.shields.io/badge/KQL-Queries-0078D4?style=flat-square&logo=microsoftazure)
 ![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
@@ -275,9 +275,17 @@ Validates enterprise-grade Linux administration skills.
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CARLOSFUN&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866)
+<img src="https://github-readme-stats.vercel.app/api?username=CARLOSFUN&show_icons=true&count_private=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&include_all_commits=true" height="180" alt="GitHub Stats" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CARLOSFUN&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F)
+<img src="https://streak-stats.demolab.com?user=CARLOSFUN&theme=radical&hide_border=true&background=0D1117&fire=F85D7F&ring=F85D7F&currStreakLabel=F85D7F" height="180" alt="GitHub Streak" />
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CARLOSFUN&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&langs_count=6" height="150" alt="Top Languages" />
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=CARLOSFUN&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=4" alt="GitHub Trophies" />
 
 </div>
 
