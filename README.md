@@ -28,6 +28,32 @@ Security-focused practitioner with a SOC and incident response mindset. I build 
 <tr>
 <td width="50%">
 
+#### 🛡️ [The Broker: Enterprise Multi-Stage Intrusion](https://github.com/CARLOSFUN/the-broker-threat-hunt)
+
+[![GitHub](https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CARLOSFUN/the-broker-threat-hunt)
+
+**🎯 Problem Solved:**  
+Full enterprise compromise reconstruction — malicious CV execution through credential theft, multi-hop lateral movement, financial data editing, and in-memory SharpChrome deployment.
+
+**🔧 Tools/Skills:**
+- Microsoft Defender for Endpoint
+- KQL (50+ production queries)
+- 40 flags across 9 attack phases
+- MITRE ATT&CK mapping (20+ techniques)
+- LOLBin abuse detection
+- Reflective .NET loading detection
+
+**💡 Why It Matters:**  
+The most complete adversary lifecycle investigation in this portfolio — covers Initial Access through Anti-Forensics with financial fraud risk identification via LibreOffice lock file artifact.
+
+![KQL](https://img.shields.io/badge/KQL-Queries-0078D4?style=flat-square&logo=microsoftazure)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
+![Flags](https://img.shields.io/badge/Flags-40-purple?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
+
+</td>
+<td width="50%">
+
 #### 🛡️ [CrossCheck: Year-End Insider Threat Hunt](https://github.com/CARLOSFUN/Crosscheck-YearEnd-Insider-Threat-Hunt)
 
 [![GitHub](https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CARLOSFUN/Crosscheck-YearEnd-Insider-Threat-Hunt)
@@ -51,6 +77,8 @@ Demonstrates complete SOC analyst workflow from initial detection through remedi
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 #### 🌐 [Threat Hunting Scenario: Tor Browser Usage](https://github.com/CARLOSFUN/threat-hunting-scenario-tor)
@@ -74,8 +102,6 @@ Helps security teams detect policy violations and potential data exfiltration pa
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 #### 🔐 [RDP Compromise CTF (End-to-End SOC Investigation)](https://github.com/CARLOSFUN/RDP-Compromise-CTF)
@@ -96,9 +122,6 @@ Mirrors common attack paths and trains responders on evidence-driven decisions.
 ![KQL](https://img.shields.io/badge/KQL-Queries-0078D4?style=flat-square&logo=microsoftazure)
 ![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
-
-</td>
-<td width="50%">
 
 </td>
 </tr>
@@ -264,8 +287,7 @@ Validates enterprise-grade Linux administration skills.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
-](https://www.linkedin.com/in/carlosfunezsanchez/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlosfunezsanchez/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CARLOSFUN)
 
 </div>
