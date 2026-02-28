@@ -129,6 +129,43 @@ Mirrors common attack paths and trains responders on evidence-driven decisions.
 
 ---
 
+### 🐍 Security Automation & Tooling
+
+<table>
+<tr>
+<td width="100%">
+
+#### 🔴 [Live Brute Force Detector — Azure SOC Dashboard](https://github.com/CARLOSFUN/brute-force-detector)
+
+[![GitHub](https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CARLOSFUN/brute-force-detector)
+
+**🎯 Problem Solved:**  
+Detect and triage active brute force campaigns against Azure AD using real internet-facing attack traffic — not simulated data.
+
+**🔧 Tools/Skills:**
+- Python + Flask (live SOC web dashboard)
+- Azure Log Analytics + KQL (`SigninLogs`)
+- AbuseIPDB API (IP reputation enrichment)
+- Sliding time-window detection algorithm
+- MITRE ATT&CK auto-classification (T1110.001 / T1110.003 / T1110.004)
+- Parallel threat intel lookups via `ThreadPoolExecutor`
+
+**💡 Why It Matters:**  
+Automates the full detection-to-triage pipeline — pulling live Azure AD sign-in failures, flagging IPs that exceed thresholds, enriching with threat intel, and surfacing results in a SOC-style dashboard with day-range toggle and timestamped CSV reports.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
+![Live Data](https://img.shields.io/badge/Data-Live%20Azure%20Traffic-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🛠️ Vulnerability Management
 
 <table>
